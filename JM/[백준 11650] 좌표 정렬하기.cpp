@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 #include <vector>
 #include <algorithm>
 using namespace std;
@@ -24,4 +24,4 @@ int main() {
 
 	sort(v.begin(), v.end(), compare);
 	for (int i = 0; i < n; ++i) cout << v[i].x << ' ' << v[i].y << '\n';
-}*/
+}
