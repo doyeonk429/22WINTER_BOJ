@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 #include <vector>
 using namespace std;
 
@@ -44,4 +44,4 @@ int main() {
 	inorder(arr, 1);
 	inorder_edit(arr, 1, state);
 	cout << cnt << '\n';
-}*/
+}
