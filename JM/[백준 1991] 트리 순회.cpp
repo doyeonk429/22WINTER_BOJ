@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 using namespace std;
 
 struct alpha {
@@ -46,4 +46,4 @@ int main() {
 	cout << '\n';
 	postfix(arr, 0);
 	cout << '\n';
-}*/
+}
