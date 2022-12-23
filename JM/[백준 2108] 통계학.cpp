@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 #include <vector>
 #include <algorithm>
 #include <cmath>
@@ -19,16 +19,16 @@ int main() {
 	}
 	sort(v.begin(), v.end());
 
-	// »ê¼úÆò±Õ
+	// ì‚°ìˆ í‰ê· 
 	int avg = round(sum / n);
 	if (avg == -0) cout << 0 << '\n';
 	else cout << avg << '\n';
 
-	// Áß¾Ó°ª
+	// ì¤‘ì•™ê°’
 	int middle = round(n / 2);
 	cout << v[middle] << '\n';
 
-	// ÃÖºó°ª
+	// ìµœë¹ˆê°’
 	vector <int> k;
 	int num = 0;
 	for (int i = 0; i < n; ++i) {
@@ -47,6 +47,6 @@ int main() {
 	if (k.size() >= 2) cout << k[1] << '\n';
 	else cout << k[0] << '\n';
 
-	// ¹üÀ§
+	// ë²”ìœ„
 	cout << v[n - 1] - v[0] << '\n';
-}*/
+}
